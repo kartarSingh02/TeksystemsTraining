@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+      integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.0/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="/style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- section 1 logo and buttons -->
+    <section>
+      <div class="background m-2">
+        <div class="text-center mystyle border no-border">
+          <img class="img-responsive" src="/logo.PNG" alt="Ming's Diner" />
+          <div class="nvbr">
+            <div class="btn-group float-left mt-2">
+              <a href="#" class="btn btn-primary" role="button">Home</a>
+              <a href="#" class="btn btn-primary" role="button">About Us</a>
+              <a href="#" class="btn btn-primary" role="button">Contact Us</a>
+            </div>
+            <div class="Call us float-right mt-2">
+              <a href="#" class="btn btn-primary" role="button">Call Us</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- butons -->
+
+    <!-- section 2 sliders -->
+    <section>
+      <!-- 1st Slider -->
+      <div class="row mt-5 mr-2">
+        <div class="col-md-5 col-sm-12 ml-2 mt-2">
+          <div
+            id="carouselExampleIndicators"
+            class="carousel slide"
+            data-ride="carousel"
+          >
+            <ol class="carousel-indicators">
+              <li
+                data-target="#carouselExampleIndicators"
+                data-slide-to="0"
+                class="active"
+              ></li>
+              <li
+                data-target="#carouselExampleIndicators"
+                data-slide-to="1"
+              ></li>
+              <li
+                data-target="#carouselExampleIndicators"
+                data-slide-to="2"
+              ></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img
+                  class="d-block w-100 img-responsive"
+                  src="https://th.bing.com/th/id/OIP.SVQuKv9AV3rBM5ZnfCmtigHaE8?pid=ImgDet&rs=1"
+                  alt="First slide"
+                />
+                <div class="carousel-caption d-none d-md-block">
+                  <h3>Trending</h3>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img
+                  class="d-block w-100 img-responsive"
+                  src="https://byuagency.com/wp-content/uploads/2019/10/FFT-October-.jpg"
+                  alt="Second slide"
+                />
+                <div class="carousel-caption d-none d-md-block">
+                  <h3>Trending</h3>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img
+                  class="d-block w-100 img-responsive"
+                  src="https://www.timeoutabudhabi.com/public/images/2019/06/02/Filipino-Dish.jpg"
+                  alt="Third slide"
+                />
+                <div class="carousel-caption d-none d-md-block">
+                  <h3>Trending</h3>
+                </div>
+              </div>
+            </div>
+            <a
+              class="carousel-control-prev"
+              href="#carouselExampleIndicators"
+              role="button"
+              data-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a
+              class="carousel-control-next"
+              href="#carouselExampleIndicators"
+              role="button"
+              data-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+        </div>
+
+        <!---------x------ 1st slider---------x-->
+
+        <!--------------- 2nd slider----------->
+        <div class="col-md-4 col-sm-12 SecondSlider mt-2">
+          <div class="container">
+            <div class="row ">
+              <div class="col">
+                <img
+                  alt="New Food Items"
+                  class="img-responsive mt-1 NewImg"
+                  src="https://www.enhanceyourpalate.com/wp-content/uploads/2018/09/IMG_0345.jpeg"
+                />
+              </div>
+              <div class="col">
+                <img
+                  alt="New Food Items"
+                  class="img-responsive m-1 NewImg"
+                  src="https://th.bing.com/th/id/OIP.vRt17E0DDvAl-DoOu18tZwHaHa?pid=ImgDet&w=853&h=853&rs=1"
+                />
+              </div>
+            </div>
+            <div class="row mt-2">
+              <div class="col">
+                <img
+                  alt="New Food Items"
+                  class="img-responsive NewImg"
+                  src="https://i.pinimg.com/736x/be/41/fc/be41fcad5ff1022af04f4c851adf52cf--vegetable-side-dishes-vegetable-recipes.jpg"
+                />
+              </div>
+              <div class="col">
+                <img
+                  alt="New Food Items"
+                  class="img-responsive ml-1 NewImg"
+                  src="https://th.bing.com/th/id/OIP.faD0G_8THMYA6R79N92VUQAAAA?pid=ImgDet&w=382&h=350&rs=1"
+                />
+              </div>
+            </div>
+            <div class="caption text-center">
+              <h4>Upcoming Dishes</h4>
+            </div>
+          </div>
+        </div>
+        <div class="col mt-2 ml-4 text-center">
+            <div class="row Ts1 mt-1">
+                <img
+              alt="Top Selling"
+              class="top"
+              src="https://th.bing.com/th/id/OIP.kYNh7asMqVfKUDFqvn9YyAHaE8?pid=ImgDet&rs=1"
+            />  
+            </div> 
+
+            <div class="row Ts2 mt-2">
+                <img
+            alt="Top Selling"
+            class="top"
+            src="https://recipes.timesofindia.com/thumb/68358712.cms?imgsize=403497&width=800&height=800"
+            />  
+            </div> 
+
+            <div class="caption text-center">
+                <h4>Top Sellings</h4>
+            </div>
+        </div>
+    </div>
+        <!-- ------------ Top Sellings--------- -->
+        <!-- <div class="container">
+          <div class=" col">
+            <img
+              alt="Top Selling"
+              class="top"
+              src="https://th.bing.com/th/id/OIP.kYNh7asMqVfKUDFqvn9YyAHaE8?pid=ImgDet&rs=1"
+            />
+          </div>
+          <div class="col">
+            <img
+              alt="Top Selling"
+              class="top"
+              src="https://recipes.timesofindia.com/thumb/68358712.cms?imgsize=403497&width=800&height=800">
+          </div>
+          <div class="caption text-center">
+            <h4>Top Sellings</h4>
+          </div>
+        </div> -->
+      </div>
+    </section>
+    <!-- ---------x---------Top Sellings------x -->
+    <!-- footer -->
+    <footer class="mainfooter m-2 p-2" role="contentinfo">
+      <div class="footer-middle">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4 col-sm-6">
+              <div class="footer-pad">
+                <h4>Restaurant's Address</h4>
+                <ul class="list-unstyled">
+                  <li>
+                    <a href="#" 
+                      >670 Vella Drive, Suite 127, J5U 1D9, Botsfordshire,
+                      Ontario, Canada</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-6">
+              <div class="footer-pad">
+                <h4>Designed By</h4>
+                <ul class="list-unstyled">
+                  <li><a href="#">Kite Technologies</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <h4>Follow Us</h4>
+              <ul class="social-network social-circle">
+                <li>
+                  <a href="#"><i class="bi bi-instagram"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="bi bi-facebook"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="bi bi-youtube"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="bi bi-messenger"></i></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12 copy">
+              <p class="text-center">
+                © Copyright 2021 - Ming's Diner. All rights reserved.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!------x------- footer -------x------->
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
